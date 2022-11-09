@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="class9.css" />
+    <title>História</title>
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de idade</h1>
+    </header>
+    <article class="box-principal">
+      <div class="Box-segundario" id="box-segundarioA">
+        <p id="DataDeNascimento">
+          Ano de nascimento:
+          <input
+            type="number"
+            name="txtano"
+            id="txtano"
+            min="1900"
+            max="2022"
+          />
+        </p>
+
+        <p id="Sexo">
+          Sexo: <input type="radio" name="radsex" id="masc" />
+          <label for="masc">Masculino</label>
+          <input type="radio" name="radsex" id="femi" />
+          <label for="femi">Feminino</label>
+        </p>
+        <p><input  input type="button" value="verificar" onclick="verificar()" id="botão"></input></p>
+      </div>
+      <div id="res">
+        Preencha os dados acima para ver o resultado
+        </div>    
+    </article>
+    <footer>
+      <p>&copy; Copyright Gustavo</p>
+    </footer>
+    <script src="class9.js"></script>
+  </body>
+</html>
