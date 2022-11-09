@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(100, 2, 169);
+  color: white;
+  font: normal 15px arial;
+}
+header {
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.box-principal {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px #0000005d;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#box-segundarioA {
+}
+#box-segundarioB {
+  border-radius: 50px;
+}
+img {
+  border-radius: 50px;
+}
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  font-style: italic;
+}
