@@ -1,0 +1,6 @@
+var value = 15;
+var valor = 55;
+var valuegeon = 2;
+for (value; value < valor; value + valuegeon) {
+  console.log(value);
+}
